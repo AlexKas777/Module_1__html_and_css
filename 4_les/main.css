@@ -1,0 +1,62 @@
+* {
+    margin: 0 auto;
+}
+.h200 {
+    height: 200px;
+}
+.w200 {
+    width: 200px;
+}
+.bgHeader {
+    background-color: #D1DEE5;
+}
+.bgMainBox {
+    background-color: #102B3E;
+}
+.brs20 {
+    border-radius: 20px;
+}
+.brs30 {
+    border-radius: 30px;
+}
+.brs50 {
+    border-radius: 50px;
+}
+.blColorT {
+    color: black;
+    text-align: center;
+}
+.whColorT {
+    color: white;
+    text-align: center;
+}
+.colorBorder {
+    border: #B7D8E7 solid 5px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    /*border: red solid 5px;*/
+}
+.card, .central-box, .header, .columAndCenter  {
+    display: flex;
+}
+.central-box {
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 20px;
+}
+.central-box h1{
+    margin-bottom: 20px;
+}
+
+.card {
+    justify-content: center;
+    padding: 0;
+}
+.cardElement {
+    margin: 0 20px;
+    list-style: none;
+}
+
+.header {
+    justify-content: center;
+}
