@@ -10,17 +10,17 @@
 .bgHeader {
     background-color: #D1DEE5;
 }
-.bgMainBox {
+.bgBottom {
     background-color: #102B3E;
 }
 .brs20 {
     border-radius: 20px;
 }
-.brs30 {
-    border-radius: 30px;
+.brs40 {
+    border-radius: 40px;
 }
 .brs50 {
-    border-radius: 50px;
+    border-radius: 50%;
 }
 .blColorT {
     color: black;
@@ -36,7 +36,7 @@
     margin-bottom: 15px;
     /*border: red solid 5px;*/
 }
-.card, .central-box, .header, .columAndCenter  {
+.card, .central-box, .header, .columAndCenter, .bottom  {
     display: flex;
 }
 .central-box {
@@ -53,10 +53,12 @@
     padding: 0;
 }
 .cardElement {
-    margin: 0 20px;
+    margin: 10px 20px;
+    padding: 10px;
     list-style: none;
 }
 
 .header {
     justify-content: center;
 }
+
