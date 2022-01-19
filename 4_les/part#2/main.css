@@ -19,8 +19,8 @@
 .w200 {
     width: 200px;
 }
-.w300 {
-    width: 300px;
+.w350 {
+    width: 350px;
 }
 
 .h450 {
@@ -35,10 +35,16 @@
 .h50 {
     height: 50px;
 }
+.h30 {
+    height: 30px;
+}
 
 /*Radius*/
 .brRadius-10{
     border-radius: 10px;
+}
+.brRadius-20{
+    border-radius: 20px;
 }
 .brRadius-50{
     border-radius: 50px;
@@ -65,7 +71,7 @@
 
 
 /*Position on the page*/
-.top-header, .nav-list-links, .nav-menu {
+.top-header, .nav-list-links, .nav-menu, .title-inHeader,.main-title-in-header {
     display: flex;
 }
 
@@ -84,4 +90,18 @@
 
 #logo {
     margin-left: 100px;
+}
+.title-inHeader{
+    align-items: center;
+    justify-content: center;
+}
+
+.main-title-in-header{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.txtCentr {
+    text-align: center;
 }
