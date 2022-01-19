@@ -1,0 +1,87 @@
+
+/*Color*/
+.bgBlue {
+    background-color: #3AC6EA;
+}
+.bgDarkBlue {
+    background-color: #102B3E;
+}
+.bgWhite-tone-1 {
+    background-color: #CED7DF;
+}
+.blBorder {
+    border: #92B8C3 solid 5px;
+}
+
+
+/*Size*/
+
+.w200 {
+    width: 200px;
+}
+.w300 {
+    width: 300px;
+}
+
+.h450 {
+    height: 450px;
+}
+.h200 {
+    height: 200px;
+}
+.h100 {
+    height: 100px;
+}
+.h50 {
+    height: 50px;
+}
+
+/*Radius*/
+.brRadius-10{
+    border-radius: 10px;
+}
+.brRadius-50{
+    border-radius: 50px;
+}
+.brRadius-80{
+    border-radius: 80px;
+}
+.brRadius-round {
+    border-radius: 50%;
+}
+
+
+ /*Style text*/
+.nav-list-links {
+        list-style: none;
+        margin-right: 100px;
+}
+.anсhor {
+    text-decoration: none;
+    color: black;
+    margin-left: 15px;
+
+}
+
+
+/*Position on the page*/
+.top-header, .nav-list-links, .nav-menu {
+    display: flex;
+}
+
+.top-header{
+    justify-content: right;
+}
+
+.nav-list-links {
+    align-items: center;
+}
+
+.nav-menu {
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo {
+    margin-left: 100px;
+}
