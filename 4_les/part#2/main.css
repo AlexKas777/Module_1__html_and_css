@@ -19,6 +19,9 @@
 .w200 {
     width: 200px;
 }
+.w250 {
+    width: 250px;
+}
 .w350 {
     width: 350px;
 }
@@ -28,6 +31,9 @@
 }
 .h200 {
     height: 200px;
+}
+.h150 {
+    height: 150px;
 }
 .h100 {
     height: 100px;
@@ -57,8 +63,26 @@
     border-radius: 50%;
 }
 
+.top-lf-brRadius-10{
+    border-top-left-radius: 10px;
+}
 
- /*Style text*/
+.top-right-brRadius-10{
+    border-top-right-radius: 10px;
+}
+.bott-right-brRadius-10{
+    border-bottom-left-radius: 10px;
+}
+
+.bott-lf-brRadius-10{
+    border-bottom-left-radius: 10px;
+}
+
+
+
+
+
+    /*Style text*/
 .nav-list-links {
         list-style: none;
         margin-right: 100px;
@@ -71,10 +95,14 @@
 .whColorTxt {
     color: white;
 }
+.modern-cards-section .txtCentr {
+    margin: 0;
+    padding-top: 50px;
+}
 
 
 /*Position on the page*/
-.top-header, .nav-list-links, .nav-menu, .title-inHeader,.main-title-in-header, .cards-inBlBorder, .card-collection, .round-cards {
+.top-header, .nav-list-links, .nav-menu, .title-inHeader,.main-title-in-header, .cards-inBlBorder, .card-collection, .round-cards, .signature-modern-card {
     display: flex;
 }
 
@@ -132,3 +160,8 @@
     padding: 15px 30px;
     margin: 0 50px;
 }
+
+.signature-modern-card {
+    justify-content: space-between;
+}
+
