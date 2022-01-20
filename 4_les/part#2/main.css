@@ -15,7 +15,12 @@
 
 
 /*Size*/
-
+.w10 {
+    width: 10px;
+}
+.w50 {
+    width: 50px;
+}
 .w200 {
     width: 200px;
 }
@@ -43,6 +48,10 @@
 }
 .h30 {
     height: 30px;
+}
+
+.h10 {
+    height: 10px;
 }
 
 
@@ -102,7 +111,7 @@
 
 
 /*Position on the page*/
-.top-header, .nav-list-links, .nav-menu, .title-inHeader,.main-title-in-header, .cards-inBlBorder, .card-collection, .round-cards, .signature-modern-card {
+.top-header, .nav-list-links, .nav-menu, .title-inHeader,.main-title-in-header, .cards-inBlBorder, .card-collection, .round-cards, .signature-modern-card, .web, .footer-modern-card, .modern-cards-section, .cards-board {
     display: flex;
 }
 
@@ -144,13 +153,14 @@
 .card-collection{
     list-style: none;
     justify-content: space-evenly;
+    padding: 0;
 }
 
 .cards-in-border {
     padding: 25px 50px;
 }
 
-.round-cards {
+.round-cards, .web {
     align-items: center;
     justify-content: center;
 }
@@ -160,8 +170,39 @@
     padding: 15px 30px;
     margin: 0 50px;
 }
+.modern-card {
+    border: #3AC6EA solid 2px;
+    padding: 10px ;
+    border-top-right-radius: 20px ;
+    border-top-left-radius:  20px;
+}
 
 .signature-modern-card {
     justify-content: space-between;
+    padding-top: 10px;
 }
 
+.footer-modern-card {
+    align-items: center;
+    justify-content: space-between;
+    border: #3AC6EA solid 2px;
+    padding: 10px ;
+    border-bottom-right-radius: 20px ;
+    border-bottom-left-radius:  20px;
+}
+
+.modern-cards-section {
+    flex-direction: column;
+}
+
+.card-element {
+    margin: 25px 50px;
+}
+
+.cards-board{
+    margin: 0 50px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
