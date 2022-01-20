@@ -10,7 +10,7 @@
     background-color: #CED7DF;
 }
 .blBorder {
-    border: #92B8C3 solid 5px;
+    border: #56819A solid 5px;
 }
 
 
@@ -39,6 +39,7 @@
     height: 30px;
 }
 
+
 /*Radius*/
 .brRadius-10{
     border-radius: 10px;
@@ -66,12 +67,14 @@
     text-decoration: none;
     color: black;
     margin-left: 15px;
-
+}
+.whColorTxt {
+    color: white;
 }
 
 
 /*Position on the page*/
-.top-header, .nav-list-links, .nav-menu, .title-inHeader,.main-title-in-header {
+.top-header, .nav-list-links, .nav-menu, .title-inHeader,.main-title-in-header, .cards-inBlBorder, .card-collection, .round-cards {
     display: flex;
 }
 
@@ -104,4 +107,28 @@
 
 .txtCentr {
     text-align: center;
+}
+
+.cards-inBlBorder {
+    flex-direction: column;
+}
+
+.card-collection{
+    list-style: none;
+    justify-content: space-evenly;
+}
+
+.cards-in-border {
+    padding: 25px 50px;
+}
+
+.round-cards {
+    align-items: center;
+    justify-content: center;
+}
+
+.round-cards .card-collection li:nth-child(2){
+    border: #56819A solid 5px;
+    padding: 15px 30px;
+    margin: 0 50px;
 }
