@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+:root{
+--bleck-col: #000000;
+}
+
+.web-page{
+    width: 1440px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    border-bottom: 1px #EAEEF2 solid;
+    position: relative;
+}
+
+.wrapper{
+    width: 1150px;
+    margin: 0 auto;
+}
+
+.header-title{
+    width: 492px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 75px;
+}
+.header-main-img{
+    width: 630px;
+
+}
+
+
+
+/*========POSITION ==========*/
+.header-top-nav-bar{
+    margin-top: 27px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.nav-bar{
+    display: flex;
+    column-gap: 22px;
+    align-items: center;
+}
+
+.header-main-section{
+    margin-top: 31px;
+    display: flex;
+    justify-content: space-between;
+}
+.header-txt-btn-in-footer{
+    position: absolute;
+    bottom: -35px;
+}
+
+
+/*========POSITION the end ==========*/
+
+
+/*========TEXT==========*/
+.text-16-400{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+}
+.text-16-700 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+}
+.text-18-400{
+      font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+}
+.text-18-700{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+}
+.text-20-400{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+}
+
+.text-22-700 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+}
+.header-title h1{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 77px;
+    line-height: 83px;
+    margin: 0 0 27px 0;
+
+
+}
+.header-title p{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 31px;
+}
+.header-txt-btn-in-footer button{
+    padding: 17px 30px 18px 31px;
+    background-color: #000;
+    color: white;
+    border-radius: 100px;
+    margin-top: 27px;
+
+}
+/*========TEXT the end ==========*/
+
+/*========BUTTON the end ==========*/
+.btn-login{
+    background-color: #fff;
+    color: var(--bleck-col);
+    padding: 13px 24px;
+}
+.btn-expert{
+    background-color: #000000;
+    color: white;
+    padding: 13px 23px 13px 24px;
+    margin-left: 18px;
+}
+
+.btn-style{
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 100px;
+}
+
+.btn-nav-bar{
+    margin-left: 27px;
+}
+/*========BUTTON the end ==========*/
+
+
+.nav-bar-element a{
+    text-decoration: none;
+    color: var(--bleck-col);
+}
