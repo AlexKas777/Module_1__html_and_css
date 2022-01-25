@@ -7,6 +7,8 @@
 --bleck-col: #000000;
 }
 
+/*============Start style ============*/
+
 .web-page{
     width: 1440px;
     margin: 0;
@@ -32,7 +34,6 @@
 }
 .header-main-img{
     width: 630px;
-
 }
 
 
@@ -89,6 +90,9 @@
     font-weight: bold;
     font-size: 18px;
 }
+
+
+
 .text-20-400{
     font-style: normal;
     font-weight: normal;
@@ -100,15 +104,52 @@
     font-weight: bold;
     font-size: 22px;
 }
+
+.text-27-400 {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 27px;
+}
+
+
+.text-28-700 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+}
+
+.text-46-700{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 46px;
+    line-height: 58px;
+}
+
+.text-57-700{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 57px;
+    line-height: 58px;
+}
+
+.text-57-400{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 57px;
+    line-height: 58px;
+}
+
+
+
+
 .header-title h1{
     font-style: normal;
     font-weight: bold;
     font-size: 77px;
     line-height: 83px;
     margin: 0 0 27px 0;
-
-
 }
+
 .header-title p{
     font-style: normal;
     font-weight: normal;
@@ -121,11 +162,39 @@
     color: white;
     border-radius: 100px;
     margin-top: 27px;
-
 }
+
+.info-for-finance-stack p {
+    max-width: 515px;
+    margin-top: 33px;
+    margin-bottom: 126px;
+}
+
+.info-card p{
+    margin-top: 10px;
+    margin-bottom: 17px;
+}
+
+.section-why-switch h2{
+    margin-top: 133px;
+}
+
+.section-plans-built-for-growth h2{
+        padding-top: 88px;
+}
+.title-amazing-companies h2{
+    width: 236px;
+    margin-right: 100px;
+}
+.text-ac-hub p{
+    max-width: 547px;
+    margin-top: 40px;
+    margin-bottom: 79px;
+}
+
 /*========TEXT the end ==========*/
 
-/*========BUTTON the end ==========*/
+/*========BUTTON ==========*/
 .btn-login{
     background-color: #fff;
     color: var(--bleck-col);
@@ -147,6 +216,17 @@
 .btn-nav-bar{
     margin-left: 27px;
 }
+.btn-why-switch{
+    margin-top: 53px;
+    margin-bottom: 126px;
+}
+
+.btn-why-switch button, .text-ac-hub button{
+    padding: 12px 30px 12px 31px;
+    background-color: #F7B2B7;
+    border-radius: 100px;
+}
+
 /*========BUTTON the end ==========*/
 
 
@@ -154,3 +234,154 @@
     text-decoration: none;
     color: var(--bleck-col);
 }
+
+
+
+
+
+
+
+
+/*============Main section web =====================*/
+
+/*--------------Section best finance stack----------*/
+.section-best-finance-stack{
+    margin-top: 159px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.info-for-finance-stack{
+    width: 563px;
+}
+
+.switch-card, .plans-built-card{
+    width: 309px;
+}
+
+.switch-card-colection, .plans-built-card-colection{
+    margin-top: 82px;
+    padding-bottom: 72px;
+    display: flex;
+    column-gap: 54px;
+}
+
+
+/*--------------Plans built for growth----------*/
+
+.marketing-section-on-web{
+    margin: 0;
+    padding: 0;
+    background-color: #FDECED;
+}
+
+
+
+
+.section-amazing-companies{
+    display: flex;
+    align-items: center;
+    padding-top: 108px;
+    padding-bottom: 53px;
+}
+
+
+
+
+.section-ac-hub{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.img-ac-hub{
+    margin-top: 108px;
+    margin-bottom: 78px;
+}
+
+
+
+.text-section-ready-to-switch{
+    margin: 108px 0;
+    padding: 90px;
+    background-color: #8BD4D6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.btn-section-ready-to-switch button{
+    padding: 12px 31px 12px 30px;
+    background-color: #000;
+    color: white;
+    border-radius: 100px;
+}
+
+.ready-to-switch h2{
+    margin-bottom: 18px;
+}
+
+
+
+
+.logo-and-title{
+    display: flex;
+    align-items: center;
+    column-gap: 18px;
+    padding-bottom: 55px;
+    padding-top: 54px;
+}
+
+.other-info{
+    display: flex;
+}
+
+.other-info ul, .other-info-2 ul{
+    width: 204px;
+    list-style: none;
+}
+
+.footer{
+    background-color: #302E3F;
+    color: white;
+}
+
+.text-18-700-footer{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    margin-bottom: 12px;
+    color: white;
+}
+.text-16-400-footer{
+    color: #C5E9EA;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 16px;
+}
+
+.other-info-2{
+    margin-top: 81px;
+}
+
+
+.other-info-3{
+    margin-top: 10px;
+    padding-bottom: 45px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.other-info-3 ul{
+    list-style: none;
+    display: flex;
+    column-gap: 27px;
+}
+
+.
+
+
+
