@@ -1,0 +1,312 @@
+*{
+    max-width: 1440px;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    color: var(--bl-col);
+}
+
+/*.web-page{*/
+/*    margin: 0 auto;*/
+/*}*/
+
+/*=========Indentations===========*/
+
+.indent-lf-36{
+    margin-left: 36px;
+}
+.indent-lf-257{
+    margin-left: 257px;
+}
+
+.indent-rt-32{
+    margin-right: 32px;
+}
+
+
+
+.indent-top-154{
+    margin-top: 154px;
+}
+.indent-top-192{
+    margin-top: 192px;
+}
+
+.indent-botm-256{
+    margin-bottom: 256px;
+}
+.indent-botm-59{
+    margin-bottom: 59px;
+}
+
+.indent-botm-192{
+    margin-bottom: 192px;
+}
+
+/*=========Indentations the end=====*/
+
+
+/*==========Color=============*/
+.bg-red{
+    background-color: red;
+}
+:root{
+    --bl-col: #000;
+}
+
+.wt-col{
+    color: white;
+}
+.yel-col{
+    background-color: #F9C600;
+}
+
+.custom-col{
+    color:  #375361;
+}
+
+/*==========Color the end=========*/
+
+/*============Text-size ============*/
+.txt-12-400{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+}
+
+.txt-14-400{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.txt-16-400{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+}
+
+.txt-17-400{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 28px;
+}
+
+.txt-22-400{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 32px
+}
+
+.txt-24-400{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 32px;
+}
+
+.txt-34-400{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 34px;
+    line-height: 40px;
+}
+
+.txt-42-400{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 42px;
+    line-height: 48px;
+}
+
+.txt-60-400{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 60px;
+    line-height: 64px;
+}
+
+/*==========Text-size the end============*/
+
+/*===========Header (nav-bar)========*/
+
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-header{
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+.nav-menu{
+    column-gap: 41px;
+    display: flex;
+}
+.nav-menu-element{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.nav-menu-element a{
+    text-decoration: none;
+
+}
+
+.nav-menu-element .fa-chevron-down{
+    margin-left:8px;
+}
+
+.start-of-use-sprig{
+    display: flex;
+    align-items: center;
+    column-gap: 24px;
+}
+
+.try-for-free button{
+    padding: 14px 29px 16px 29px;
+    background: #0B2330;
+    border: 1px solid #0B2330;
+    box-sizing: border-box;
+    border-radius: 4px
+
+}
+/*=======Header (nav-bar) the end=====*/
+
+/*===========Header (main section)========*/
+.header-main-section{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.header-left-txt-box{
+    width: 448px;
+    height: 886px;
+}
+.header-left-txt-box h1, .header-left-txt-box p{
+    max-width: 436px;
+}
+.header-left-txt-box p{
+    margin-top: 32px;
+    margin-bottom: 38px;
+}
+
+.btn-header-left-box{
+    display: flex;
+    column-gap: 16px;
+}
+
+.btn-header-start, .btn-header-talk{
+    padding: 15px 29px;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+.btn-header-start{
+    border: 1px solid #F9C600;
+}
+.btn-header-talk {
+    border: 1px solid #0B2330;
+}
+
+
+
+.header-right-img-box{
+    width: 600px;
+    height: 886px;
+    position: relative;
+}
+.main-img-header-right, .bottom-img-header-right{
+    position: absolute;
+}
+.bottom-img-header-right{
+    bottom: 0;
+}
+.main-img-header-right{
+    bottom:221px;
+    right:120px;
+}
+
+/*=======Header (main section) the end=====*/
+
+/*========= Section worlds companies =============*/
+.section-worlds-companies{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title-box {
+    max-width: 714px;
+}
+.title-box h2{
+    margin: 0 83px 0 85px;
+    text-align: center;
+
+}
+
+.body-worlds-companies {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 1143px;
+    column-gap: 82px;
+    row-gap: 16px;
+
+}
+
+
+/*==== Section worlds companies the end ====*/
+
+/*===== Section modern product =====*/
+
+.section-modern-product{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modern-product-img-and-text{
+    max-width: 1376px;
+    border-radius: 10px;
+    background: #51CEBC;
+    display: flex;
+    justify-content: center;
+}
+
+.modern-product-img img{
+    margin: 56px 0;
+}
+
+.modern-product-text{
+    margin: 115px 116px 131px 20px;
+}
+
+.modern-product-text h3{
+    max-width: 557px;
+    margin-bottom: 35px;
+}
+
+.modern-product-text p{
+    max-width: 533px;
+}
+
+
+/*=== Section modern product the and ===*/
+
+
+
+
+
+
+
+
