@@ -7,7 +7,7 @@
 }
 
 /*.web-page{*/
-/*    margin: 0 auto;*/
+/*    border: red 3px solid;*/
 /*}*/
 
 /*=========Indentations===========*/
@@ -17,6 +17,9 @@
 }
 .indent-lf-257{
     margin-left: 257px;
+}
+.indent-lf-148{
+    margin-left: 148px;
 }
 
 .indent-rt-32{
@@ -63,6 +66,10 @@
 
 .custom-col{
     color:  #375361;
+}
+
+.viol-col{
+    background-color: #BD78F0;
 }
 
 /*==========Color the end=========*/
@@ -302,10 +309,67 @@
 
 
 /*=== Section modern product the and ===*/
+/*=== Section opportunities Sprig ====*/
+.section-opportunities-Sprig{
+    margin-top: 191px;
+    margin-bottom: 160px;
+}
+.internal-components-opportunities-Sprig{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.section-opportunities-Sprig h2{
+    max-width: 772px;
+    margin: 0 364px;
+}
+
+.opportunities-Sprig-img {
+    margin-top: 57px;
+    margin-bottom: 113px;
+}
+
+.internal-components-opportunities-Sprig button{
+    padding: 14px 29px 16px 29px;
+}
 
 
+/*=== Section opportunities Sprig the and ====*/
+
+/*=====Section target your actual users ======*/
+.section-target-your-actual-users{
+
+}
+.internal-box-actual-users-img-and-text{
+    width: 1260px;
+    height: 537px;
+    display: flex;
+    /*align-items: center;*/
+    /*justify-content: end;*/
+    border-radius: 10px;
+    position: relative;
+}
 
 
+.target-actual-users-img img{
+ position: absolute;
+    left: -116px;
+    bottom: 64px;
+
+}
+
+.target-actual-users-text{
+    margin: 106px 116px 123px 582px;
+    /*margin-right: 128px;*/
+    max-width: 562px;
+}
+.target-actual-users-text h2{
+    margin-bottom: 39px;
+}
+
+/*=====Section target your actual users the and ======*/
 
 
 
