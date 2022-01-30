@@ -1,4 +1,4 @@
-*{
+* {
     max-width: 1440px;
     margin: 0;
     padding: 0;
@@ -6,131 +6,212 @@
     color: var(--bl-col);
 }
 
-/*.web-page{*/
-/*    border: red 3px solid;*/
-/*}*/
+.web-page {
+    border: red 3px solid;
+
+
+}
 
 /*=========Indentations===========*/
 
-.indent-lf-36{
+.indent-lf-36 {
     margin-left: 36px;
 }
-.indent-lf-257{
+
+.indent-lf-32 {
+    margin-left: 32px;
+}
+
+.indent-lf-257 {
     margin-left: 257px;
 }
-.indent-lf-148{
+
+.indent-lf-268 {
+    margin-left: 268px;
+}
+
+.indent-lf-148 {
     margin-left: 148px;
 }
 
-.indent-rt-32{
+.indent-lf-122 {
+    margin-left: 122px;
+}
+
+
+.indent-rt-32 {
     margin-right: 32px;
 }
 
+.indent-rt-122 {
+    margin-right: 122px;
+}
 
 
-.indent-top-154{
+.indent-top-96 {
+    padding-top: 96px;
+}
+
+.indent-top-154 {
     margin-top: 154px;
 }
-.indent-top-192{
+
+
+.indent-top-136 {
+    margin-top: 136px;
+}
+
+.indent-top-160 {
+    margin-top: 160px;
+}
+
+.indent-top-192 {
     margin-top: 192px;
 }
 
-.indent-botm-256{
-    margin-bottom: 256px;
-}
-.indent-botm-59{
+
+.indent-botm-59 {
     margin-bottom: 59px;
 }
 
-.indent-botm-192{
+.indent-botm-96 {
+    padding-bottom: 96px;
+}
+
+.indent-botm-122 {
+    margin-bottom: 122px;
+}
+
+.indent-botm-136 {
+    margin-bottom: 136px;
+}
+
+.indent-botm-152 {
+    margin-bottom: 152px;
+}
+
+.indent-botm-192 {
     margin-bottom: 192px;
+}
+
+.indent-botm-219 {
+    margin-bottom: 219px;
+}
+
+.indent-botm-240 {
+    margin-bottom: 240px;
+}
+
+.indent-botm-256 {
+    margin-bottom: 256px;
 }
 
 /*=========Indentations the end=====*/
 
 
 /*==========Color=============*/
-.bg-red{
+.bg-red {
     background-color: red;
 }
-:root{
+
+:root {
     --bl-col: #000;
 }
 
-.wt-col{
+.wt-col {
     color: white;
 }
-.yel-col{
+
+.yel-col {
     background-color: #F9C600;
 }
 
-.custom-col{
-    color:  #375361;
+
+.custom-col {
+    color: #375361;
 }
 
-.viol-col{
+.viol-col {
     background-color: #BD78F0;
+}
+
+.low-pin-col {
+    background-color: #F2EDE7;
+}
+
+.ativ-top-bor {
+    border-top: 4px solid #C9316F;
+}
+
+.dark-bl-bgc{
+    background-color: #0B2330;
+}
+.fff-txt{
+    color: #ffffff;
+}
+.silv-txt{
+    color: #94A0A4;
 }
 
 /*==========Color the end=========*/
 
 /*============Text-size ============*/
-.txt-12-400{
+.txt-12-400 {
     font-style: normal;
     font-weight: normal;
     font-size: 12px;
     line-height: 16px;
 }
 
-.txt-14-400{
+.txt-14-400 {
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
     line-height: 24px;
 }
 
-.txt-16-400{
+.txt-16-400 {
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
 }
 
-.txt-17-400{
+.txt-17-400 {
     font-style: normal;
     font-weight: normal;
     font-size: 17px;
     line-height: 28px;
 }
 
-.txt-22-400{
+.txt-22-400 {
     font-style: normal;
     font-weight: normal;
     font-size: 22px;
     line-height: 32px
 }
 
-.txt-24-400{
+.txt-24-400 {
     font-style: normal;
     font-weight: normal;
     font-size: 24px;
     line-height: 32px;
 }
 
-.txt-34-400{
+.txt-34-400 {
     font-style: normal;
     font-weight: normal;
     font-size: 34px;
     line-height: 40px;
 }
 
-.txt-42-400{
+.txt-42-400 {
     font-style: normal;
     font-weight: normal;
     font-size: 42px;
     line-height: 48px;
 }
 
-.txt-60-400{
+.txt-60-400 {
     font-style: normal;
     font-weight: normal;
     font-size: 60px;
@@ -141,44 +222,45 @@
 
 /*===========Header (nav-bar)========*/
 
-.nav-bar{
+.nav-bar {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.logo-header{
+.logo-header {
     margin-top: 15px;
     margin-bottom: 30px;
 }
 
-.nav-menu{
+.nav-menu {
     column-gap: 41px;
     display: flex;
 }
-.nav-menu-element{
+
+.nav-menu-element {
     display: flex;
     justify-content: center;
     align-items: center;
 
 }
 
-.nav-menu-element a{
+.nav-menu-element a {
     text-decoration: none;
 
 }
 
-.nav-menu-element .fa-chevron-down{
-    margin-left:8px;
+.nav-menu-element .fa-chevron-down {
+    margin-left: 8px;
 }
 
-.start-of-use-sprig{
+.start-of-use-sprig {
     display: flex;
     align-items: center;
     column-gap: 24px;
 }
 
-.try-for-free button{
+.try-for-free button {
     padding: 14px 29px 16px 29px;
     background: #0B2330;
     border: 1px solid #0B2330;
@@ -186,65 +268,72 @@
     border-radius: 4px
 
 }
+
 /*=======Header (nav-bar) the end=====*/
 
 /*===========Header (main section)========*/
-.header-main-section{
+.header-main-section {
     display: flex;
     justify-content: flex-end;
 }
 
-.header-left-txt-box{
+.header-left-txt-box {
     width: 448px;
     height: 886px;
 }
-.header-left-txt-box h1, .header-left-txt-box p{
+
+.header-left-txt-box h1, .header-left-txt-box p {
     max-width: 436px;
 }
-.header-left-txt-box p{
+
+.header-left-txt-box p {
     margin-top: 32px;
     margin-bottom: 38px;
 }
 
-.btn-header-left-box{
+.btn-header-left-box {
     display: flex;
     column-gap: 16px;
 }
 
-.btn-header-start, .btn-header-talk{
+.btn-header-start, .btn-header-talk {
     padding: 15px 29px;
     box-sizing: border-box;
     border-radius: 4px;
 }
-.btn-header-start{
+
+.btn-header-start {
     border: 1px solid #F9C600;
 }
+
 .btn-header-talk {
     border: 1px solid #0B2330;
 }
 
 
-
-.header-right-img-box{
+.header-right-img-box {
     width: 600px;
     height: 886px;
     position: relative;
 }
-.main-img-header-right, .bottom-img-header-right{
+
+.main-img-header-right, .bottom-img-header-right {
     position: absolute;
 }
-.bottom-img-header-right{
+
+.bottom-img-header-right {
     bottom: 0;
 }
-.main-img-header-right{
-    bottom:221px;
-    right:120px;
+
+.main-img-header-right {
+    bottom: 221px;
+    right: 120px;
 }
 
 /*=======Header (main section) the end=====*/
 
 /*========= Section worlds companies =============*/
-.section-worlds-companies{
+.section-worlds-companies {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -254,7 +343,8 @@
 .title-box {
     max-width: 714px;
 }
-.title-box h2{
+
+.title-box h2 {
     margin: 0 83px 0 85px;
     text-align: center;
 
@@ -276,13 +366,13 @@
 
 /*===== Section modern product =====*/
 
-.section-modern-product{
+.section-modern-product {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.modern-product-img-and-text{
+.modern-product-img-and-text {
     max-width: 1376px;
     border-radius: 10px;
     background: #51CEBC;
@@ -290,38 +380,39 @@
     justify-content: center;
 }
 
-.modern-product-img img{
+.modern-product-img img {
     margin: 56px 0;
 }
 
-.modern-product-text{
+.modern-product-text {
     margin: 115px 116px 131px 20px;
 }
 
-.modern-product-text h3{
+.modern-product-text h3 {
     max-width: 557px;
     margin-bottom: 35px;
 }
 
-.modern-product-text p{
+.modern-product-text p {
     max-width: 533px;
 }
 
 
 /*=== Section modern product the and ===*/
 /*=== Section opportunities Sprig ====*/
-.section-opportunities-Sprig{
+.section-opportunities-Sprig {
     margin-top: 191px;
     margin-bottom: 160px;
 }
-.internal-components-opportunities-Sprig{
+
+.internal-components-opportunities-Sprig {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
 }
 
-.section-opportunities-Sprig h2{
+.section-opportunities-Sprig h2 {
     max-width: 772px;
     margin: 0 364px;
 }
@@ -331,18 +422,22 @@
     margin-bottom: 113px;
 }
 
-.internal-components-opportunities-Sprig button{
+.internal-components-opportunities-Sprig button {
     padding: 14px 29px 16px 29px;
+    border: 1px solid #F9C600;
+    box-sizing: border-box;
+    border-radius: 4px;
 }
 
 
 /*=== Section opportunities Sprig the and ====*/
 
 /*=====Section target your actual users ======*/
-.section-target-your-actual-users{
+.section-target-your-actual-users {
 
 }
-.internal-box-actual-users-img-and-text{
+
+.internal-box-actual-users-img-and-text {
     width: 1260px;
     height: 537px;
     display: flex;
@@ -353,23 +448,353 @@
 }
 
 
-.target-actual-users-img img{
- position: absolute;
+.target-actual-users-img img {
+    position: absolute;
     left: -116px;
     bottom: 64px;
 
 }
 
-.target-actual-users-text{
+.target-actual-users-text {
     margin: 106px 116px 123px 582px;
     /*margin-right: 128px;*/
     max-width: 562px;
 }
-.target-actual-users-text h2{
+
+.target-actual-users-text h2 {
     margin-bottom: 39px;
 }
 
 /*=====Section target your actual users the and ======*/
+/*===== section how Sprig helps ensure =====*/
+
+.internal-box-with-content-Sprig-helps-ensure {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-box-in-Sprig-helps-ensure {
+    max-width: 593px;
+}
+
+.header-box-in-Sprig-helps-ensure h2 {
+    margin-top: 13px;
+    margin-bottom: 26px;
+}
+
+
+.text-in-contextual-microsurveys,
+.text-in-video-questions {
+    max-width: 513px;
+}
+
+.text-in-contextual-microsurveys h3,
+.text-in-video-questions h3,
+.text-in-concept-testing h3 {
+    margin-top: 23px;
+
+}
+
+.text-in-contextual-microsurveys p,
+.text-in-video-questions p,
+.text-in-concept-testing p {
+    max-width: 484px;
+    margin-top: 29px;
+    margin-bottom: 42px;
+}
+
+.text-in-contextual-microsurveys button,
+.text-in-video-questions button,
+.text-in-concept-testing button {
+    padding: 14px 29px 16px;
+    border: 1px solid #0B2330;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+.nav-menu-how-Sprig-helps-ensure {
+    column-gap: 8px;
+}
+
+.nav-menu-how-Sprig-helps-ensure button {
+    text-transform: uppercase;
+    padding: 3px 8px 4px;
+    background: #E7EAEB;
+    border-radius: 4px;
+    text-align: center;
+    color: #61757E;
+    border: none;
+    box-sizing: border-box;
+
+}
+
+.nav-menu-how-Sprig-helps-ensure button:nth-child(3) {
+    background-color: #FE9F28;
+    width: 150px;
+}
+
+.nav-menu-how-Sprig-helps-ensure button:nth-child(1) {
+    width: 228px;
+}
+
+.nav-menu-how-Sprig-helps-ensure button:nth-child(2) {
+    width: 150px;
+}
+
+
+/*===== section how Sprig helps ensure the and =====*/
+/*===== section how Sprig delivers accurate insights ===*/
+
+.header-Sprig-delivers-accurate-insights {
+    max-width: 1064px;
+    row-gap: 10px;
+}
+
+.header-Sprig-delivers-accurate-insights h5 {
+    text-transform: uppercase;
+}
+
+.img-and-text-Sprig-delivers-accurate-insights {
+    display: flex;
+    justify-content: space-between;
+}
+
+.text-Sprig-delivers-accurate-insights {
+    max-width: 588px;
+
+
+}
+
+.sprig-title-drop-down-elemrnt {
+    padding: 25px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.sprig-drop-down-elemrnt {
+    border-bottom: 4px solid #C3CACD
+}
+
+.sprig-content-drop-down-element p {
+    margin: 35px 0;
+
+}
+
+.sprig-content-drop-down-element a {
+    text-decoration: none;
+    margin-right: 8px;
+    padding-bottom: 12px;
+
+}
+
+/*===== section how Sprig delivers accurate insights ===*/
+/*========= Integrating with Sprig ============*/
+.content-integrating-with-Sprig{
+    display: flex;
+    justify-content: space-between;
+}
+.text-integrating-with-Sprig{
+    max-width: 669px;
+}
+
+.text-integrating-with-Sprig h2{
+    margin-top: 15px;
+}
+
+.text-integrating-with-Sprig p{
+    margin: 37px 0 36px;
+}
+
+.text-integrating-with-Sprig button{
+    padding: 14px 29px 16px;
+    border: 1px solid #F9C600;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+
+
+/*========= Integrating with Sprig the and============*/
+/*===========Trusted by the world's teams===========*/
+.section-trusted-by-the-worlds-teams{
+
+}
+
+
+.content-worlds-teams{
+    display: flex;
+    height: 584px;
+
+}
+
+
+/*.lf-txt-box-worlds-teams{*/
+/*    width: 562px;*/
+/*    border-radius: 10px 0 0 10px;*/
+/*    !*display: flex;*!*/
+/*    !*flex-direction: column;*!*/
+/*    !*justify-content: center;*!*/
+/*}*/
+
+.lf-shell{
+    width: 562px;
+    border-radius: 10px 0 0 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.lf-txt-box-worlds-teams h5 {
+    margin-bottom: 17px;
+    max-width: 325px;
+}
+
+.lf-txt-box-worlds-teams h2 {
+    max-width: 314px;
+}
+
+.lf-txt-box-worlds-teams p{
+    margin-top: 27px;
+    margin-bottom: 36px;
+    max-width: 325px;
+}
+
+
+.lf-txt-box-worlds-teams button{
+    padding: 14px 29px 16px;
+    border: 1px solid #0B2330;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+.rt-txt-box-worlds-teams h2{
+    max-width: 557px;
+}
+
+.rt-txt-box-worlds-teams{
+    border-radius: 0 10px 10px 0;
+    width: 886px;
+
+
+}
+
+#img-quotes-background {
+    position: absolute;
+    left: -113px;
+    bottom: 303px;
+
+}
+
+.rt-shell{
+    display: flex;
+    flex-direction: column;
+    /*align-items: center;*/
+    justify-content: center;
+    margin: 126px 121px 265px 116px;
+    position: relative;
+
+}
+
+.growth-manager{
+    display: flex;
+    align-items: center;
+    padding-top: 81px;
+}
+.text-manager{
+    margin-left: 24px;
+    color: #2F3F48;
+}
+
+/*===========Trusted by the world's teams the and===========*/
+/*=========== Section head Footer =========*/
+
+.section-head-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 56px;
+    padding-bottom: 94px;
+    margin-top: 46px;
+}
+
+.content-head-footer{
+    max-width: 609px;
+    text-align: center;
+}
+
+.content-head-footer p{
+    margin-top: 31px;
+    margin-bottom: 36px;
+}
+
+.content-head-footer button{
+    padding: 14px 29px 16px;
+    border: 1px solid #F9C600;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+/*=========== Section head Footer =========*/
+/*============= Content main body footer =============*/
+.content-main-body-footer{
+    display: flex;
+    column-gap: 100px;
+    border-top: 2px solid #375361;
+    padding-top: 80px;
+
+}
+
+.content-main-body-footer ul{
+    list-style: none;
+
+}
+
+
+.content-main-body-footer ul li{
+    color: #94A0A4;
+    max-width: 163px;
+    margin-bottom: 14px;
+
+}
+
+.content-main-body-footer ul li:nth-child(1){
+    color: #F9C600;
+}
+
+.copyright{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 69px;
+    padding-bottom: 220px;
+
+}
+.copyright p {
+    color: #94A0A4;
+}
+
+.icon img{
+    margin-right: 24px;
+}
+
+/*======== Content main body footer the and =======*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
